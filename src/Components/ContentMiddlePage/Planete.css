@@ -1,0 +1,16 @@
+.container-planet{
+    height: 80vh;
+}
+
+.fleche-gauche-planet,
+.fleche-droite-planet{
+    width: 30px;
+}
+
+.fleche-gauche-planet{
+    margin-left: 10px;
+}
+
+.fleche-droite-planet{
+    margin-right: 10px;
+}
