@@ -4,6 +4,7 @@ import './App.css';
 // import { Spinner } from 'reactstrap';
 import NavBar from './Components/NavBar';
 import Planete from './Components/ContentMiddlePage/Planete';
+import InfoPlanet from './Components/ContentMiddlePage/InfoPlanet'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Planete/>
+      <InfoPlanet/>
     </div>
   );
 }

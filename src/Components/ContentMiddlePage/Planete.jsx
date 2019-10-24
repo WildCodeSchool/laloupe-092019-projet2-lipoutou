@@ -16,6 +16,7 @@ class Planete extends React.Component{
                     <img src="https://zupimages.net/up/19/43/q9s6.png" className="sm-12 fleche-droite-planet"/>
                 </div>
             </div>
+
         )
     }
 }

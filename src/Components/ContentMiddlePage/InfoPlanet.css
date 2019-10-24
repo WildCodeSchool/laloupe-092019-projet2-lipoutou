@@ -1,0 +1,32 @@
+.titre-nom-planet{
+    color: #ffffff;
+}
+
+.container-info-planet{
+    height: 13.5vh;
+    background-color: rgb(3, 34, 76, 0.3);
+    border-radius: 30px;
+}
+
+.plant{
+    opacity: 1;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.paragraphe-plant,
+.paragraphe-atmos,
+.paragraphe-espece{
+    color: #ffffff;
+}
+
+.container{
+    color: #ffffff;
+}
+
+.info-planet{
+    margin-left: 50px;
+}
