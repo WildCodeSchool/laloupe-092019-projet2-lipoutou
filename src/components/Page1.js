@@ -12,6 +12,7 @@ class Page1 extends React.Component {
     render() {
         return (
 
+
             <div>
                 <div className="">
                     <div className="rowTab rowDsk spaceRound tab-12">
@@ -137,6 +138,27 @@ consequently may change as more data are received on Earth.</p>
 
                 </div>
             </div>
+
+            <Container>
+            <div>
+                <div className="bg flex">
+                    <img className="mars" src={this.props.image} />
+                    <p>{this.props.name}</p>
+                    <h1>travel to all planets of the univers </h1>
+                    <div className="row">
+                        <div className="">
+                            <h3>Contact us</h3>
+                        </div>
+                        <div className="">
+                            <h2>Ressources</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            </Container>
+
         )
     }
 }
