@@ -1,0 +1,36 @@
+.fleche-gauche{
+    margin: 10px;
+}
+
+.filter-logo{
+    width: 10px;
+    padding: 5px;
+}
+
+.button-filter{
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 992px) {
+    .fleche-gauche{
+        margin: 10px;
+    }
+    
+    .filter-logo{
+        width: 10px;
+        padding: 5px;
+    }
+    
+    .button-filter{
+        height: 40px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        opacity: 0.6;
+    }
+    
+ }
