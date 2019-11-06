@@ -1,0 +1,124 @@
+.titre-nom-planet{
+    color: #ffffff;
+}
+
+.container-info-planet{
+    height: 13.5vh;
+    background-color: rgb(3, 34, 76, 0.3);
+}
+
+.plant{
+    opacity: 1;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.paragraphe-plant,
+.paragraphe-atmos,
+.paragraphe-espece{
+    color: #ffffff;
+}
+
+.container{
+    color: #ffffff;
+}
+
+.info-planet{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    .titre-nom-planet{
+        color: #ffffff;
+    }
+    
+    .container-info-planet{
+        height: 13.5vh;
+        background-color: rgb(3, 34, 76, 0.3);
+        border-radius: 30px;
+    }
+    
+    .plant{
+        opacity: 1;
+        margin: auto;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
+    .paragraphe-plant,
+    .paragraphe-atmos,
+    .paragraphe-espece{
+        color: #ffffff;
+    }
+    
+    .container{
+        color: #ffffff;
+    }
+    
+    .info-planet{
+        margin-left: 50px;
+    }
+    .container-meteo-planet,
+    .container-meteo-planet-2{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titre-nom-planet{
+        color: #ffffff;
+    }
+    
+    .container-info-planet{
+        height: 13.5vh;
+        background-color: rgb(3, 34, 76, 0.3);
+    }
+    
+    .plant{
+        opacity: 1;
+        margin: auto;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
+    .paragraphe-plant,
+    .paragraphe-atmos,
+    .paragraphe-espece{
+        color: #ffffff;
+    }
+    
+    .container{
+        color: #ffffff;
+    }
+    
+    .info-planet{
+        margin-left: 50px;
+    }
+    .container-meteo-planet{
+        color: #ffffff;
+        height: 13.5vh;
+        background-color: rgb(3, 34, 76, 0.3);
+    }
+    .container-meteo-planet-2{
+        margin-right: 60px;
+        height: 13.5vh;
+        background-color: rgb(3, 34, 76, 0.3);
+    }
+}
+
+@media screen and (max-width: 575.98px){
+    .container-meteo-planet,
+    .container-meteo-planet-2{
+        display: none;
+    }
+}

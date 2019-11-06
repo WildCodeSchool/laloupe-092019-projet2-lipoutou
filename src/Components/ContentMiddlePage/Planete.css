@@ -1,0 +1,45 @@
+
+.fleche-gauche-planet,
+.fleche-droite-planet{
+    width: 30px;
+}
+
+.fleche-gauche-planet{
+    margin-left: 10px;
+}
+
+.fleche-droite-planet{
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    
+    .fleche-gauche-planet,
+    .fleche-droite-planet{
+        width: 30px;
+    }
+
+    .fleche-gauche-planet{
+        margin-left: 10px;
+    }
+
+    .fleche-droite-planet{
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .fleche-gauche-planet,
+    .fleche-droite-planet{
+        width: 30px;
+    }
+
+    .fleche-gauche-planet{
+        margin-left: 10px;
+    }
+
+    .fleche-droite-planet{
+        margin-right: 10px;
+    }
+}
