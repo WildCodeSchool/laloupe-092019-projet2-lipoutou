@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar';
 import Planete from './Components/ContentMiddlePage/Planete';
 import InfoPlanet from './Components/ContentMiddlePage/InfoPlanet'
 import './Grid.css'
+import Planets from './components/Planets';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="infoPlanet sm-12 lg-12">
         <InfoPlanet/>
+      </div>
+      <div className="App">
+        <Planets/>
       </div>
     </div>
   );
