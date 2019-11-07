@@ -1,31 +1,22 @@
 import React from 'react';
-import './App.css';
-// import { Alert } from 'reactstrap';
-// import { Spinner } from 'reactstrap';
-import NavBar from './Components/NavBar';
-import Planete from './Components/ContentMiddlePage/Planete';
-import InfoPlanet from './Components/ContentMiddlePage/InfoPlanet'
-import './Grid.css'
-import Planets from './components/Planets';
+import Page1 from './components/Page1';
+import Page2 from './Components/Page2';
+import {Switch, Route} from 'react-router-dom';
+
+
+
 
 
 function App() {
   return (
-    <div className="App column space-btw">
-      <div className="sm-12 lg-12">
-        <NavBar/>
-      </div>
-      <div className="planet sm-12 lg-12">
-        <Planete />
-      </div>
-      <div className="infoPlanet sm-12 lg-12">
-        <InfoPlanet/>
-      </div>
-      <div className="App">
-        <Planets/>
-      </div>
+    <div>
+      <Switch>
+        <Route exact path="/" component={Page1} /> 
+        <Route path="/Page2" component={Page2} />     
+      </Switch>
     </div>
   );
 }
+
 
 export default App;

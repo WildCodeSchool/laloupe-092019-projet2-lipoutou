@@ -37,17 +37,17 @@ class InfoPlanet extends React.Component{
             <div className="container row space-btw">
                 <div className="sm-12 md-12 lg-8 row container-info-planet">
                     <div className="sm-4 md-4 lg-4 plant  column align-center text-center">
-                        <img src="https://zupimages.net/up/19/43/dskl.png" className="sm-3 md-2 lg-1 logo-plant"/>
+                        <img alt="img" src="https://zupimages.net/up/19/43/dskl.png" className="sm-3 md-2 lg-1 logo-plant"/>
                         <hr className="sm-8 md-8 lg-8"/>
                         <p className="paragraphe-plant">None</p>
                     </div>
                     <div className="sm-4 md-4 lg-4 plant text-center">
-                        <img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C044599836516286fd38ef374d0eeff03/projects/Mdce9b94d2d26ffed31e40ad5db2af0c31571131422160/images/thumbnails/M8370e0097514affb0f0ee4d67938fefa1571168357286" className="sm-3 md-2 lg-1 logo-plant"/>
+                        <img alt="img" src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C044599836516286fd38ef374d0eeff03/projects/Mdce9b94d2d26ffed31e40ad5db2af0c31571131422160/images/thumbnails/M8370e0097514affb0f0ee4d67938fefa1571168357286" className="sm-3 md-2 lg-1 logo-plant"/>
                         <hr className="sm-8 md-8 lg-8"/>
                         <p className="paragraphe-atmos">Unknown</p>
                     </div>
                     <div className="sm-4 md-4 lg-4 plant text-center">
-                        <img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C044599836516286fd38ef374d0eeff03/projects/Mdce9b94d2d26ffed31e40ad5db2af0c31571131422160/images/thumbnails/Md1a84e33a0fc823e76e101d7348946b21571167708062" className="sm-3 md-2 lg-1 logo-plant"/>
+                        <img alt="img" src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C044599836516286fd38ef374d0eeff03/projects/Mdce9b94d2d26ffed31e40ad5db2af0c31571131422160/images/thumbnails/Md1a84e33a0fc823e76e101d7348946b21571167708062" className="sm-3 md-2 lg-1 logo-plant"/>
                         <hr className="sm-8 md-8 lg-8"/>
                         <p className="paragraphe-espece">Crabe</p>
                     </div>
