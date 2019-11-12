@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './Planets.css';
 import { Canvas, } from 'react-three-fiber';
 import Obj from '../Components/cube3D';
@@ -12,7 +12,9 @@ class Page1 extends React.Component {
                     <div className="row  spaceRound centerSectionMob tab-12">
                         <div className="desk-4 topsection  mars">
                             <Canvas className="jeremy " camera={{ position: [0, 0, 5] }}>
-                                <Obj className="mars" />
+                                <Suspense fallback={null}>
+                                    <Obj />
+                                </Suspense>
                             </Canvas>
 
                         </div>
@@ -127,7 +129,7 @@ class Page1 extends React.Component {
                             <p className="ressources"> NASA's InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at
                             Elysiu Planitia , a flat, smooth plain near Mars equator, Summaries of these data are available at https
         ://mars.nasa.gov/insight/weather<br /><br />This API provides per-Sol summary data for each of the last seven available Sols(Martian Days).As more data from a
-                                particular Sol are downlinked from the spacecraft (sometimes several days later), these values are recalculated, and
+                                                                                particular Sol are downlinked from the spacecraft (sometimes several days later), these values are recalculated, and
         consequently may change as more data are received on Earth.</p>
                         </div>
                     </div>

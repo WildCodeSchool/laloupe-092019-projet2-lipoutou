@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from './NavBar';
-
 import Planete from './ContentMiddlePage/Planete';
 import InfoPlanet from './ContentMiddlePage/InfoPlanet'
 
@@ -12,11 +11,11 @@ import InfoPlanet from './ContentMiddlePage/InfoPlanet'
 function Page2() {
   return (
     <div className="App column space-btw">
-     <NavBar/>
+      <NavBar />
       <Planete />
-     <InfoPlanet/>
-     
-      </div>
+      <InfoPlanet />
+
+    </div>
   );
 }
 
