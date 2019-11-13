@@ -9,9 +9,9 @@ class Page1 extends React.Component {
 
             <div>
                 <div className="">
-                    <div className="row  spaceRound centerSectionMob tab-12">
+                    <div className="row pose spaceRound centerSectionMob tab-12">
                         <div className="desk-4 topsection  mars">
-                            <Canvas className="jeremy " camera={{ position: [0, 0, 5] }}>
+                            <Canvas className="" camera={{ position: [0, 0, 5] }}>
                                 <Suspense fallback={null}>
                                     <Obj />
                                 </Suspense>
@@ -93,19 +93,22 @@ class Page1 extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row centerSection flexStart mob-12 tab-6 dsk-12">
-
-                        <h1 className="global travel marginTop  mob-10 tab-12 desk-5"><a className="link" href="/Page2">Travel to all planets of the univers</a> </h1>
+                    <div className="row centerSectiondesk centerSectionMob centersectionTab flexStart mob-12 tab-6 dsk-12 positionApi">
+                    <a href="/Page2" className="myButton global travel marginTop  mob-10 tab-12 desk-5 "> Travel to all planets of the univers</a>
+                       
                     </div>
-                    <div className="row botSection borderMom mob-12 tab-12 dsk-12">
+                    <div className="row test botSection borderMom mob-12 tab-12 dsk-12  ">
                         <div className="mob-6 tab-9 desk-5 column row">
+                            <div>
                             <h2 className="marginTop marginLeft">Contact us</h2>
+                            </div>
+                            <div className="ecart">
                             <form className="borderBot" action="" method="get">
                                 <label htmlFor="get name"></label>
                                 <input className="field marginTop fontSize" id="get name" type="text" name="name" defaultValue="Name" />
 
                                 <label htmlFor="prenom"></label>
-                                <input className="field marginTop fontSize" id="prenom" type="text" name="Prenom" defaultValue="Prénom" />
+                                <input className="field marginTop fontSize" id="prenom" type="text" name="Prenom" defaultValue="FirstName" />
 
                                 <label htmlFor="email"></label>
                                 <input className="field marginTop fontSize" id="email" type="text" name="email" defaultValue="Email" />
@@ -123,15 +126,20 @@ class Page1 extends React.Component {
                                 </div>
 
                             </form>
+                            </div>
                         </div>
-                        <div className="mob-6 tab-6 desk-8 column">
+                        <div className="mob-6 tab-6 desk-8 column ">
+                           <div>
                             <h2 className="marginTop ">Ressources</h2>
-                            <p className="ressources"> NASA's InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at
+                           </div>
+                           <div className="ecart">
+                            <p className="ressources "> NASA's InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at
                             Elysiu Planitia , a flat, smooth plain near Mars equator, Summaries of these data are available at https
         ://mars.nasa.gov/insight/weather<br /><br />This API provides per-Sol summary data for each of the last seven available Sols(Martian Days).As more data from a
                                                                                 particular Sol are downlinked from the spacecraft (sometimes several days later), these values are recalculated, and
         consequently may change as more data are received on Earth.</p>
-                        </div>
+                      </div>
+                      </div>
                     </div>
 
 

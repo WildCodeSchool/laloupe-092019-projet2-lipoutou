@@ -5,7 +5,7 @@ import './NavBar.css'
 class NavBar extends React.Component {
     render() {
         return (
-            <div className="sm-12 md-12 lg-12 row">
+            <div className="sm-12 md-12 lg-12 row positionNav">
                 <div className="sm-6 md-6 lg-6">
                     <a href="/"> <img alt="fleche" src="https://www.dsbrowser.com/documentation/images/4/45/Fleche-gauche.png" className="sm-2 md-2 lg-1 fleche-gauche" /></a>
                 </div>

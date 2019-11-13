@@ -5,6 +5,7 @@
 .container-info-planet{
     height: 13.5vh;
     background-color: rgb(3, 34, 76, 0.3);
+    
 }
 
 .plant{
@@ -24,6 +25,7 @@
 
 .container{
     color: #ffffff;
+
 }
 
 .info-planet{
@@ -61,6 +63,8 @@
     
     .container{
         color: #ffffff;
+        
+        
     }
     
     .info-planet{
@@ -121,4 +125,5 @@
     .container-meteo-planet-2{
         display: none;
     }
+    
 }

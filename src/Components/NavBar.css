@@ -34,3 +34,22 @@
     }
     
  }
+
+ @media screen and (min-width: 576px) and (max-width: 991.98px) {
+.positionNav{
+    padding-bottom: 150px;
+}
+
+
+
+ }
+
+ @media screen and (max-width: 575.98px){
+
+
+    .positionNav{
+        padding-bottom: 200px;
+    }
+
+
+ }
