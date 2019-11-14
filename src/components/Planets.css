@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
   .bg {
     background-color: grey;
@@ -118,7 +119,7 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
     }
     .column {
@@ -250,7 +251,7 @@
             padding-top: 15px;
         }
       .mars {
-        width: 300px;
+        width: 768px;
         height: 300px;
         margin-bottom: 50px;
         margin-top: 50px;
@@ -304,7 +305,7 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
     }
     .column {
@@ -437,7 +438,7 @@
         
      }
     .test{
-        font-family: none;
+        line-height: 1.2 !important; 
     }
     .travelText {
       color: white;
@@ -456,7 +457,7 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
         flex-direction: row;
      flex-wrap: wrap;

@@ -34,8 +34,8 @@ class InfoPlanet extends React.Component {
     render() {
         return (
             <div>
-                <div className="container row space-btw">
-                    <div className="sm-12 md-12 lg-8 row container-info-planet">
+                <div className="containerr roww space-btw">
+                    <div className="sm-12 md-12 lg-8 roww container-info-planet">
                         <div className="sm-4 md-4 lg-4 plant  column align-center text-center">
                             <img alt="img" src="https://zupimages.net/up/19/43/dskl.png" className="sm-3 md-2 lg-1 logo-plant" />
                             <hr className="sm-8 md-8 lg-8" />

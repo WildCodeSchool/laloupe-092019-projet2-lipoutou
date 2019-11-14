@@ -1,57 +1,33 @@
 
-.fleche-gauche-planet,
-.fleche-droite-planet{
-    width: 30px;
-}
-
-.fleche-gauche-planet{
-    margin-left: 20px;
-}
-
-.fleche-droite-planet{
-    margin-right: 20px;
-}
 
 
 @media screen and (min-width: 576px) and (max-width: 991.98px) {
-    
-    .fleche-gauche-planet,
-    .fleche-droite-planet{
-        width: 50px;
-    }
 
-    .fleche-gauche-planet{
-        margin-left: 10px;
-    }
-
-    .fleche-droite-planet{
-        margin-right: 10px;
-    }
     .planeteTaille{
         height: 400px !important;
         
     }
     .position{
-        padding-bottom: 245px;
+        padding-bottom: 245px !important;
     }
     
 }
 
 @media screen and (min-width: 992px) {
-    .fleche-gauche-planet,
-    .fleche-droite-planet{
-        width: 70px;
-    }
 
-    .fleche-gauche-planet{
-        margin-left: 10px;
-    }
-
-    .fleche-droite-planet{
-        margin-right: 10px;
-    }
     .planeteTaille{
+        width: 1046px !important;
         height: 605px !important;
+    }
+    .css-1fzpoyk {
+        top: 50%;
+        position: absolute !important;
+        -moz-box-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        -moz-box-pack: center !important;
+        transform-origin: 50% 50% 0px !important;
+        display: flex !important;
     }
 }
 
@@ -62,7 +38,7 @@
     }
     
     .position{
-        padding-bottom: 250px;
+        padding-bottom: 250px !important;
     }
     
 

@@ -9,7 +9,7 @@ import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLigh
 RectAreaLightUniformsLib.init()
 
 
-function Obj() {
+function Earth() {
   
   const { size, viewport } = useThree()
   const aspect = size.width / viewport.width
@@ -30,7 +30,7 @@ function Obj() {
   })
 
   const ref = useRef()
-  const texture = useLoader(THREE.TextureLoader, './mars2.jpg');
+  const texture = useLoader(THREE.TextureLoader, './earth.jpg');
   
   return (
     <group ref={ref}>
@@ -43,4 +43,4 @@ function Obj() {
       </a.mesh>
     </group>)
 }
-export default Obj;
+export default Earth;

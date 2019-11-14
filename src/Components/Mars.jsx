@@ -9,7 +9,7 @@ import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLigh
 RectAreaLightUniformsLib.init()
 
 
-function Obj() {
+function Mars() {
   
   const { size, viewport } = useThree()
   const aspect = size.width / viewport.width
@@ -43,4 +43,4 @@ function Obj() {
       </a.mesh>
     </group>)
 }
-export default Obj;
+export default Mars;
