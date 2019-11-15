@@ -1,36 +1,55 @@
 .fleche-gauche{
-    margin: 10px;
+    margin: 10px !important;
 }
 
 .filter-logo{
-    width: 10px;
-    padding: 5px;
+    width: 10px !important;
+    padding: 5px !important;
 }
 
 .button-filter{
-    height: 40px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    opacity: 0.6;
+    height: 40px !important;
+    border-radius: 10px !important;
+    outline: none !important;
+    border: none !important;
+    opacity: 0.6 !important;
 }
 
 @media screen and (min-width: 992px) {
     .fleche-gauche{
-        margin: 10px;
+        margin: 10px !important;
     }
     
     .filter-logo{
-        width: 10px;
-        padding: 5px;
+        width: 10px !important;
+        padding: 5px !important;
     }
     
     .button-filter{
-        height: 40px;
-        border-radius: 10px;
-        outline: none;
-        border: none;
-        opacity: 0.6;
+        height: 40px !important;
+        border-radius: 10px !important;
+        outline: none !important;
+        border: none !important;
+        opacity: 0.6 !important;
     }
     
+ }
+
+ @media screen and (min-width: 576px) and (max-width: 991.98px) {
+.positionNav{
+    padding-bottom: 150px !important;
+}
+
+
+
+ }
+
+ @media screen and (max-width: 575.98px){
+
+
+    .positionNav{
+        padding-bottom: 200px !important;
+    }
+
+
  }

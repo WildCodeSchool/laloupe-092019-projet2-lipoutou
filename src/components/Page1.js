@@ -1,136 +1,144 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './Planets.css';
-
-
+import { Canvas, } from 'react-three-fiber';
+import Obj from '../Components/cube3D';
 
 class Page1 extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
-
     render() {
         return (
 
-
             <div>
                 <div className="">
-                    <div className="rowTab rowDsk spaceRound tab-12">
-                        <img className="mars tab-6" src={this.props.image} />
+                    <div className="roww pose spaceRound centerSectionMob tab-12">
+                        <div className="desk-4 topsection  mars">
+                            <Canvas className="can" camera={{ position: [0, 0, 5] }}>
+                                <Suspense fallback={null}>
+                                    <Obj />
+                                </Suspense>
+                            </Canvas>
 
-                        <div className="row columnTab topSection mob-12 tab-2 dsk12">
-                            <div className="row">
+                        </div>
+                        <div className="roww columnTab topSection mob-12 tab-2 dsk-12">
+                            <div className="roww ">
                                 <div className="border">
                                     <div className="travelText">
                                         SOL 259
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Aug: 29
-                            </div>
+                                    </div>
                                     <div className="lane">
 
                                     </div>
                                     <div className="travelText">
                                         High:-17°F
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Low:-150°F
-                            </div>
+                                    </div>
                                 </div>
                                 <div className="border borderHidden">
                                     <div className="travelText">
                                         SOL 259
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Aug: 29
-                            </div>
+                                    </div>
                                     <div className="lane">
 
                                     </div>
                                     <div className="travelText">
                                         High:-17°F
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Low:-150°F
-                            </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="row ">
+                            <div className="roww ">
                                 <div className="border">
                                     <div className="travelText">
                                         SOL 259
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Aug: 29
-                            </div>
+                                    </div>
                                     <div className="lane">
 
                                     </div>
                                     <div className="travelText">
                                         High:-17°F
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Low:-150°F
-                            </div>
+                                    </div>
                                 </div>
                                 <div className="border borderHidden">
                                     <div className="travelText">
                                         SOL 260
-                            </div>
+                                    </div>
                                     <div className="travelText">
                                         Aug: 29
-                            </div>
+                                    </div>
                                     <div className="lane">
 
                                     </div>
                                     <div className="travelText">
                                         High:-19°F
-                            </div>
+                                     </div>
                                     <div className="travelText">
                                         Low:-150°F
-                            </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row centerSection flexStart mob-12 tab-6 dsk-12">
-                        
-                        <h1 className="travel marginTop  mob-10 tab-12 desk-4"><span>Travel to all planets of the univers</span> </h1>
+                    <div className="roww centerSectiondesk centerSectionMob centersectionTab flexStart mob-12 tab-6 dsk-12 positionApi">
+                        <a href="/Page2" className="myButton global travel marginTop  mob-10 tab-12 desk-5 "> Travel to all planets of the univers</a>
+
                     </div>
-                    <div className="row botSection borderMom mob-12 tab-12 dsk-12">
-                        <div className="mob-6 tab-9 desk-5 column">
-                            <h2 className="marginTop marginLeft">Contact us</h2>
-                            <form className="borderBot" action="" method="get">
-                                <label htmlFor="get name"></label>
-                                <input className="field marginTop fontSize" id="get name" type="text" name="name" defaultValue="Name" />
+                    <div className="roww test botSection borderMom mob-12 tab-12 dsk-12  ">
+                        <div className="mob-6 tab-9 desk-5 column roww">
+                            <div>
+                                <h2 className="marginTop marginLeft">Contact us</h2>
+                            </div>
+                            <div className="ecart">
+                                <form className="borderBot" action="" method="get">
+                                    <label htmlFor="get name"></label>
+                                    <input className="field marginTop fontSize" id="get name" type="text" name="name" defaultValue="Name" />
 
-                                <label htmlFor="prenom"></label>
-                                <input className="field marginTop fontSize" id="prenom" type="text" name="Prenom" defaultValue="Prénom" />
+                                    <label htmlFor="prenom"></label>
+                                    <input className="field marginTop fontSize" id="prenom" type="text" name="Prenom" defaultValue="FirstName" />
 
-                                <label htmlFor="email"></label>
-                                <input className="field marginTop fontSize" id="email" type="text" name="email" defaultValue="Email" />
-                                <div className="rowDsk desktopArea desk-12">
+                                    <label htmlFor="email"></label>
+                                    <input className="field marginTop fontSize" id="email" type="text" name="email" defaultValue="Email" />
+                                    <div className="rowDsk desktopArea desk-12">
 
-                                    <div className="marginLeft desk-6">
-                                        <textarea className="textArea marginTop" id="zone de text" name="zone de texte"></textarea>
+                                        <div className="desk-6">
+                                            <textarea className="textArea marginTop" id="zone de text" name="zone de texte"></textarea>
+                                        </div>
+
+                                        <div className="fontSizeNews marginRight desk-12">
+                                            <input className="button marginTop fontSize" type="submit" value="Subscribe to the newsletter" />
+                                            <input className="button marginTop fontSize" type="button" value="Send the message" />
+                                        </div>
+
                                     </div>
 
-                                    <div className="fontSizeNews marginRight desk-6">
-                                        <input className="button marginTop fontSize" type="submit" value="Subscribe to the newsletter" />
-                                        <input className="button marginTop fontSize" type="button" value="Send the message" />
-                                    </div>
-                               
-                                </div>
-
-                            </form>
+                                </form>
+                            </div>
                         </div>
-                        <div className="mob-6 tab-6 desk-8 column">
-                            <h2 className="marginTop ">Ressources</h2>
-                            <p className="ressources"> NASA's InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at
- Elysiu Planitia , a flat, smooth plain near Mars equator, Summaries of these data are available at https
-://mars.nasa.gov/insight/weather<br /><br />This API provides per-Sol summary data for each of the last seven available Sols(Martian Days).As more data from a
-                                                                particular Sol are downlinked from the spacecraft (sometimes several days later), these values are recalculated, and
-consequently may change as more data are received on Earth.</p>
+                        <div className="mob-6 tab-6 desk-8 column ">
+                            <div>
+                                <h2 className="marginTop ">Ressources</h2>
+                            </div>
+                            <div className="">
+                                <p className="ressources "> NASA's InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at
+                                Elysiu Planitia , a flat, smooth plain near Mars equator, Summaries of these data are available at https
+        ://mars.nasa.gov/insight/weather<br /><br />This API provides per-Sol summary data for each of the last seven available Sols(Martian Days).As more data from a
+                                                                                                            particular Sol are downlinked from the spacecraft (sometimes several days later), these values are recalculated, and
+        consequently may change as more data are received on Earth.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -138,27 +146,6 @@ consequently may change as more data are received on Earth.</p>
 
                 </div>
             </div>
-
-            <Container>
-            <div>
-                <div className="bg flex">
-                    <img className="mars" src={this.props.image} />
-                    <p>{this.props.name}</p>
-                    <h1>travel to all planets of the univers </h1>
-                    <div className="row">
-                        <div className="">
-                            <h3>Contact us</h3>
-                        </div>
-                        <div className="">
-                            <h2>Ressources</h2>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            </Container>
-
         )
     }
 }

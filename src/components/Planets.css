@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
   .bg {
     background-color: grey;
@@ -12,7 +13,43 @@
     opacity: 0.5;
 }
 
+.global{
+    text-align: center;
+}
+.ecart{
+    padding: 10px;
+}
 
+.carousel-indicators li {
+    display: none !important;
+}
+
+.myButton {
+	box-shadow: 3px 4px 50px 11px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 60px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    opacity: 0.7;
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 @media screen and (min-width: 1025px) {
     .desk-0 {display: none;}
      .desk-1{width:8.33%;}
@@ -28,7 +65,10 @@
      .desk-11{width:91.66%;}
      .desk-12{width:100%;} 
     
-
+     .myButton{
+        margin-bottom: 50px;
+        margin-left: 40px;
+     }
 
      .mars {
         width: 400px;
@@ -36,10 +76,11 @@
         margin-bottom: 50px;
         margin-top: 50px;
     }
+     
     .rowDsk {
         display: flex;
     }
-
+    
   
     .columnTab {
         display: flex;
@@ -48,13 +89,13 @@
     .spaceRound {
         justify-content: space-around;
     }
-    h1 {
+   h1 {
         font-size: 13px; 
         color: white;
         padding-top: 12px;
         border: 1px solid none;
         border-radius:30px; 
-        background-color: #ceaa0b94;
+        background-color: 	#000080;
         background-size: auto;
         height: 40px;
         vertical-align: middle;
@@ -62,6 +103,7 @@
         margin-left: 40px;
         width: 300px;
         border: 1px solid rgb(255, 255, 255);
+        opacity: 0.4;
     }
 
 
@@ -82,7 +124,7 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
     }
     .column {
@@ -112,8 +154,8 @@
         margin-bottom: 5px;
     }
 
-    .centerSection {
-        justify-content: center;
+    .centerSectiondesk{
+        margin-left: 50px;
     }
     .borderMom {
         border: 1px solid none;
@@ -175,7 +217,7 @@
 
     .flexStart {
         justify-content:left;
-        margin-left: 100px;
+        
     }
     .fontSizeNews {
         font-size: 73%;
@@ -200,14 +242,27 @@
       .tab-10{width:83.33%;}
       .tab-11{width:91.66%;}
       .tab-12{width:100%;}  
-    
+        
+      .pose{
+          padding-top: 50px;
+      }
 
-      .mars {
-        width: 300px;
-        height: 300px;
+      .myButton{
         margin-bottom: 50px;
-        margin-top: 50px;
-    }
+        margin-left: 40px;
+     }
+
+        .positionApi{
+            padding-top: 15px;
+        }
+      
+        .mars {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
     .rowTab {
         display: flex;
     }
@@ -228,7 +283,7 @@
         padding-top: 12px;
         border: 1px solid none;
         border-radius:30px; 
-        background-color: #ceaa0b94;
+        background-color: 	#000080;
         background-size: auto;
         height: 40px;
         vertical-align: middle;
@@ -236,6 +291,7 @@
         margin-left: 40px;
         width: 300px;
         border: 1px solid rgb(255, 255, 255);
+        opacity: 0.4;
     }
 
 
@@ -256,7 +312,7 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
     }
     .column {
@@ -282,8 +338,8 @@
         margin-bottom: 5px;
     }
 
-    .centerSection {
-        justify-content: center;
+    .centersectionTab{
+        margin-left: 20px;
     }
     .borderMom {
         border: 1px solid none;
@@ -375,14 +431,22 @@
         padding-top: 15px;
         border: 1px solid none;
         border-radius:30px; 
-        background-color: #ceaa0b94;
+        background-color: 	#000080;
         background-size: auto;
         height: 50px;
         vertical-align: middle;
         margin-bottom: 20px;
         border: 1px solid rgb(255, 255, 255);
+        opacity: 0.4;
     }
 
+    .myButton{
+        margin-bottom: 20px;
+        
+     }
+    .test{
+        line-height: 1.2 !important; 
+    }
     .travelText {
       color: white;
       font-size: 13px;
@@ -400,8 +464,10 @@
         align-items: center;
         
     }
-    .row {
+    .roww {
         display: flex;
+        flex-direction: row;
+     flex-wrap: wrap;
     }
 
     .column {
@@ -427,9 +493,11 @@
         margin-bottom: 5px;
     }
 
-    .centerSection {
+    .centerSectionMob {
         justify-content: center;
     }
+
+
     .borderMom {
         border: 1px solid none;
         background-color:rgba(107, 106, 106, 0.281);
@@ -446,7 +514,7 @@
         border-right: 1px solid black;
         height: 90%;
     }
-
+    
     .field {
         width: 85%;
         height: 30px;
@@ -472,8 +540,7 @@
         }
 
     .ressources {
-        text-align: justify;
-        margin: 10px 10px 10px 10px;
+        
         color: white;
         font-size: 85%;
     }
