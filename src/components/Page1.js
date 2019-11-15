@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import './Planets.css';
 import { Canvas, } from 'react-three-fiber';
-import Mamadou from '../Components/cube3D';
+import Obj from '../Components/cube3D';
 
 class Page1 extends React.Component {
     render() {
@@ -11,15 +11,15 @@ class Page1 extends React.Component {
                 <div className="">
                     <div className="roww pose spaceRound centerSectionMob tab-12">
                         <div className="desk-4 topsection  mars">
-                            <Canvas className="" camera={{ position: [0, 0, 5] }}>
+                            <Canvas className="can" camera={{ position: [0, 0, 5] }}>
                                 <Suspense fallback={null}>
-                                    <Mamadou />
+                                    <Obj />
                                 </Suspense>
                             </Canvas>
 
                         </div>
-                        <div className="roww columnTab topSection mob-12 tab-2 dsk12">
-                            <div className="roww">
+                        <div className="roww columnTab topSection mob-12 tab-2 dsk-12">
+                            <div className="roww ">
                                 <div className="border">
                                     <div className="travelText">
                                         SOL 259

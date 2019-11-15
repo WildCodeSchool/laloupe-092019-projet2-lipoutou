@@ -49,7 +49,7 @@ class InfoPlanet extends React.Component {
                         <div className="sm-4 md-4 lg-4 plant text-center">
                             <img alt="img" src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C044599836516286fd38ef374d0eeff03/projects/Mdce9b94d2d26ffed31e40ad5db2af0c31571131422160/images/thumbnails/Md1a84e33a0fc823e76e101d7348946b21571167708062" className="sm-3 md-2 lg-1 logo-plant" />
                             <hr className="sm-8 md-8 lg-8" />
-                            <p className="paragraphe-espece">Crabe</p>
+                            <p className="paragraphe-espece">Unknown</p>
                         </div>
                     </div>
                     <div className="sm-0 md-0 column container-meteo-planet lg-1 center align-center">

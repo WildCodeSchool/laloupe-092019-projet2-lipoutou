@@ -20,6 +20,10 @@
     padding: 10px;
 }
 
+.carousel-indicators li {
+    display: none !important;
+}
+
 .myButton {
 	box-shadow: 3px 4px 50px 11px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
@@ -72,10 +76,11 @@
         margin-bottom: 50px;
         margin-top: 50px;
     }
+     
     .rowDsk {
         display: flex;
     }
-
+    
   
     .columnTab {
         display: flex;
@@ -250,12 +255,14 @@
         .positionApi{
             padding-top: 15px;
         }
-      .mars {
-        width: 768px;
-        height: 300px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
+      
+        .mars {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
     .rowTab {
         display: flex;
     }
