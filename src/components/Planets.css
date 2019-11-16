@@ -1,72 +1,71 @@
-
-
   * {
     box-sizing: border-box;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
 }
-  .bg {
+.bg {
     background-color: grey;
 }
 .opac {
     opacity: 0.5;
 }
-
 .global{
     text-align: center;
 }
 .ecart{
     padding: 10px;
 }
+.carousel-indicators li {
+    display: none !important;
+}
 
 .myButton {
-	box-shadow: 3px 4px 50px 11px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:42px;
-	border:3px solid #29668f;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Times New Roman;
-	font-size:15px;
-	font-weight:bold;
-	padding:10px 60px;
-	text-decoration:none;
+    box-shadow: 3px 4px 50px 11px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:42px;
+    border:3px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Times New Roman;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 60px;
+    text-decoration:none;
     text-shadow:0px 1px 0px #3d768a;
     opacity: 0.7;
     
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+    position:relative;
+    top:1px;
 }
 @media screen and (min-width: 1025px) {
     .desk-0 {display: none;}
-     .desk-1{width:8.33%;}
-     .desk-2{width:16.66%;}
-     .desk-3{width:25%;}
-     .desk-4{width:33.33%;}
-     .desk-5{width:41.66%;}
-     .desk-6{width:50%;}
-     .desk-7{width:58.33%;}
-     .desk-8{width:66.66%;}
-     .desk-9{width:75%;}
-     .desk-10{width:83.33%;}
-     .desk-11{width:91.66%;}
-     .desk-12{width:100%;} 
+    .desk-1{width:8.33%;}
+    .desk-2{width:16.66%;}
+    .desk-3{width:25%;}
+    .desk-4{width:33.33%;}
+    .desk-5{width:41.66%;}
+    .desk-6{width:50%;}
+    .desk-7{width:58.33%;}
+    .desk-8{width:66.66%;}
+    .desk-9{width:75%;}
+    .desk-10{width:83.33%;}
+    .desk-11{width:91.66%;}
+    .desk-12{width:100%;} 
     
-     .myButton{
+    .myButton{
         margin-bottom: 50px;
         margin-left: 40px;
-     }
-
-     .mars {
+    }
+    
+    .mars {
         width: 400px;
         height: 400px;
         margin-bottom: 50px;
@@ -75,8 +74,8 @@
     .rowDsk {
         display: flex;
     }
-
-  
+    
+    
     .columnTab {
         display: flex;
         flex-direction: column;
@@ -84,7 +83,7 @@
     .spaceRound {
         justify-content: space-around;
     }
-   h1 {
+    h1 {
         font-size: 13px; 
         color: white;
         padding-top: 12px;
@@ -100,18 +99,18 @@
         border: 1px solid rgb(255, 255, 255);
         opacity: 0.4;
     }
-
-
+    
+    
     .travelText {
         color: white;
         font-size: 16px;
-      }
-
-      h2{
+    }
+    
+    h2{
         color:white;
         font-size: 20px;
     }
-
+    
     .flex {
         display: flex;
         flex-direction: column;
@@ -124,12 +123,12 @@
     }
     .column {
         flex-direction: column;
-      
+        
     }
     .topSection {
         justify-content: space-around;
     }
-
+    
     .border {
         border: 1px solid none;
         background-color:rgba(107, 106, 106, 0.281); 
@@ -138,9 +137,9 @@
         border: 1px solid white;
         border-radius: 20px;
     }
-
-   
-
+    
+    
+    
     .lane {
         border-top: 1px solid white;
         width: 100%;
@@ -148,7 +147,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-
+    
     .centerSectiondesk{
         margin-left: 50px;
     }
@@ -162,12 +161,12 @@
     .botSection {
         justify-content:space-between;
     }
-
+    
     .borderBot {
         border-right: 1px solid  none;
         height: 89%;
     }
-
+    
     .field {
         width: 80%;
         height: 25px;
@@ -181,18 +180,18 @@
         border-radius: 3px;
         border: 1px solid;
     }
-
+    
     .fontSize {
         font-size: 90%;
     }
-
+    
     .button {
         width: 75%;
         height: 30px;
         border-radius: 6px;
         border: 1px solid;
-        }
-
+    }
+    
     .ressources {
         text-align: justify;
         margin: 10px 10px 10px 10px;
@@ -202,14 +201,14 @@
     .marginTop {
         margin-top: 15px;
     }
-
+    
     .marginLeft {
         margin-left: 30px;
     }
     .marginRight {
         margin-right: 20px;
     }
-
+    
     .flexStart {
         justify-content:left;
         
@@ -217,40 +216,40 @@
     .fontSizeNews {
         font-size: 73%;
     }
-
-
-
-    } 
     
-    @media screen and (min-width: 701px) and (max-width: 1024px){
-  
-      .tab-0 {display: none;}
-      .tab-1{width:8.33%;}
-      .tab-2{width:16.66%;}
-      .tab-3{width:25%;}
-      .tab-4{width:33.33%;}
-      .tab-5{width:41.66%;}
-      .tab-6{width:50%;}
-      .tab-7{width:58.33%;}
-      .tab-8{width:66.66%;}
-      .tab-9{width:75%;}
-      .tab-10{width:83.33%;}
-      .tab-11{width:91.66%;}
-      .tab-12{width:100%;}  
-        
-      .pose{
-          padding-top: 50px;
-      }
+    
+    
+} 
 
-      .myButton{
+@media screen and (min-width: 701px) and (max-width: 1024px){
+    
+    .tab-0 {display: none;}
+    .tab-1{width:8.33%;}
+    .tab-2{width:16.66%;}
+    .tab-3{width:25%;}
+    .tab-4{width:33.33%;}
+    .tab-5{width:41.66%;}
+    .tab-6{width:50%;}
+    .tab-7{width:58.33%;}
+    .tab-8{width:66.66%;}
+    .tab-9{width:75%;}
+    .tab-10{width:83.33%;}
+    .tab-11{width:91.66%;}
+    .tab-12{width:100%;}  
+    
+    .pose{
+        padding-top: 50px;
+    }
+    
+    .myButton{
         margin-bottom: 50px;
         margin-left: 40px;
-     }
-
-        .positionApi{
-            padding-top: 15px;
-        }
-      .mars {
+    }
+    
+    .positionApi{
+        padding-top: 15px;
+    }
+    .mars {
         width: 768px;
         height: 300px;
         margin-bottom: 50px;
@@ -259,7 +258,7 @@
     .rowTab {
         display: flex;
     }
-
+    
     .borderHidden {
         display: none;
     }
@@ -286,18 +285,18 @@
         border: 1px solid rgb(255, 255, 255);
         opacity: 0.4;
     }
-
-
+    
+    
     .travelText {
         color: white;
         font-size: 16px;
-      }
-
-      h2{
+    }
+    
+    h2{
         color:white;
         font-size: 20px;
     }
-
+    
     .flex {
         display: flex;
         flex-direction: column;
@@ -314,7 +313,7 @@
     .topSection {
         justify-content: space-around;
     }
-
+    
     .border {
         border: 1px solid none;
         background-color:rgba(107, 106, 106, 0.281); 
@@ -322,7 +321,7 @@
         border: 1px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
-
+    
     .lane {
         border-top: 1px solid white;
         width: 100%;
@@ -330,7 +329,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-
+    
     .centersectionTab{
         margin-left: 20px;
     }
@@ -344,12 +343,12 @@
     .botSection {
         justify-content:space-between;
     }
-
+    
     .borderBot {
         border-right: 1px solid black;
         height: 89%;
     }
-
+    
     .field {
         width: 80%;
         height: 25px;
@@ -362,18 +361,18 @@
         border-radius: 3px;
         border: 1px solid;
     }
-
+    
     .fontSize {
         font-size: 90%;
     }
-
+    
     .button {
         width: 80%;
         height: 30px;
         border-radius: 6px;
         border: 1px solid;
-        }
-
+    }
+    
     .ressources {
         text-align: justify;
         margin: 10px 10px 10px 10px;
@@ -383,37 +382,37 @@
     .marginTop {
         margin-top: 20px;
     }
-
-    
-
-    }  
     
     
-    @media screen and (max-width: 700px) {
+    
+}  
 
 
-      .mob-0 {display: none;}
-      .mob-1{width:8.33%;}
-      .mob-2{width:16.66%;}
-      .mob-3{width:25%;}
-      .mob-4{width:33.33%;}
-      .mob-5{width:41.66%;}
-      .mob-6{width:50%;}
-      .mob-7{width:58.33%;}
-      .mob-8{width:66.66%;}
-      .mob-9{width:75%;}
-      .mob-10{width:83.33%;}
-      .mob-11{width:91.66%;}
-      .mob-12{width:100%;}   
+@media screen and (max-width: 700px) {
     
     
-      .mars {
+    .mob-0 {display: none;}
+    .mob-1{width:8.33%;}
+    .mob-2{width:16.66%;}
+    .mob-3{width:25%;}
+    .mob-4{width:33.33%;}
+    .mob-5{width:41.66%;}
+    .mob-6{width:50%;}
+    .mob-7{width:58.33%;}
+    .mob-8{width:66.66%;}
+    .mob-9{width:75%;}
+    .mob-10{width:83.33%;}
+    .mob-11{width:91.66%;}
+    .mob-12{width:100%;}   
+    
+    
+    .mars {
         margin-top: 20px;
         width: 200px;
         height: 200px;
     }
     
-
+    
     .borderHidden {
         display: none;
     }
@@ -432,24 +431,24 @@
         border: 1px solid rgb(255, 255, 255);
         opacity: 0.4;
     }
-
+    
     .myButton{
         margin-bottom: 20px;
         
-     }
+    }
     .test{
         line-height: 1.2 !important; 
     }
     .travelText {
-      color: white;
-      font-size: 13px;
+        color: white;
+        font-size: 13px;
     }
     h2{
         color:white;
         font-size: 20px;
     }
     
-
+    
     .flex {
         display: flex;
         flex-direction: column;
@@ -460,16 +459,16 @@
     .roww {
         display: flex;
         flex-direction: row;
-     flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-
+    
     .column {
         flex-direction: column;
     }
     .topSection {
         justify-content: space-around;
     }
-
+    
     .border {
         border: 1px solid none;
         background-color:rgba(107, 106, 106, 0.281); 
@@ -477,7 +476,7 @@
         border: 1px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
-
+    
     .lane {
         border-top: 1px solid white;
         width: 100%;
@@ -485,12 +484,12 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-
+    
     .centerSectionMob {
         justify-content: center;
     }
-
-
+    
+    
     .borderMom {
         border: 1px solid none;
         background-color:rgba(107, 106, 106, 0.281);
@@ -502,7 +501,7 @@
     .botSection {
         justify-content:space-between;
     }
-
+    
     .borderBot {
         border-right: 1px solid black;
         height: 90%;
@@ -520,18 +519,18 @@
         border-radius: 3px;
         border: 1px solid;
     }
-
+    
     .fontSize {
         font-size: 80%;
     }
-
+    
     .button {
         width: 85%;
         height: 35px;
         border-radius: 6px;
         border: 1px solid;
-        }
-
+    }
+    
     .ressources {
         
         color: white;
@@ -540,6 +539,6 @@
     .marginTop {
         margin-top: 20px;
     }
-
-
-    }
+    
+    
+}
